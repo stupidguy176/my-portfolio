@@ -1,0 +1,86 @@
+{
+  "basicinfo": {
+    "vi": "Thông tin cơ bản",
+    "en": "Basic Info"
+  },
+  "education": {
+    "vi": "Học vấn",
+    "en": "Education"
+  },
+  "personal-info": {
+    "vi": "Thông tin cá nhân",
+    "en": "Personal Info"
+  },
+  "expertise": {
+    "vi": "Kỹ năng",
+    "en": "Expertise"
+  },
+  "experience": {
+    "vi": "Kinh nghiệm",
+    "en": "Experiences"
+  },
+  "project": {
+    "vi": "Project",
+    "en": "Project"
+  },
+  "graduation": {
+    "vi": "Tốt nghiệp Đại học Sư phạm TPHCM",
+    "en": "Graduated from Ho Chi Minh City University of Education"
+  },
+  "master": {
+    "vi": "CN: Công nghệ phần mềm và hệ thống thông tin",
+    "en": "Software Engineering and Information Systems"
+  },
+  "birthdate": {
+    "vi": "Ngày sinh",
+    "en": "Birthdate"
+  },
+  "phone": {
+    "vi": "Số điện thoại",
+    "en": "Phone"
+  },
+  "internship": {
+    "vi": "Thực tập sinh",
+    "en": "Intern"
+  },
+  "nksname": {
+    "vi": "Công ty TNHH Giải pháp Công nghệ Tri Thức Mới (NKS)",
+    "en": "NKS CO.,LTD"
+  },
+  "nks": {
+    "vi": "Lập trình Wordpress.<br> Xây dựng CMS trên nền Laravel.",
+    "en": "Writing code for WordPress. <br> Build A CMS with Laravel."
+  },
+  "eztekname": {
+    "vi": "Công ty TNHH Phát Triển Phần Mềm Eztek(EZTEK CO.,LTD)",
+    "en": "Eztek Software Development CO.,LTD"
+  },
+  "eztek": {
+    "vi": "Lập trình Angular (Angular 6, Angular 7). Mô hình Redux, NgRx. Lập trình mobile với Ionic framework.",
+    "en": "Work with Angular (Angular 6, Angular 7). Build store using ngrx/store. Builds some mobile apps with Ionic framework."
+  },
+  "polarisname": {
+    "vi": "Công ty TNHH Thương mại và Dịch vụ Polaris Việt Nam",
+    "en": "POLARIS VINA CO.,LTD"
+  },
+  "polaris": {
+    "vi": "Lập trình VueJS.<br>Xây dựng web, phát triển tính năng mới.",
+    "en": "Work with VueJS.<br> Build some websites, develop new features for company's products."
+  },
+  "moneyanimal": {
+    "vi": "Ứng dụng nhỏ giúp các bạn nhỏ còn đi học, nhất là các bạn cấp 2 quản lý ví tiền hàng ngày của mình.<br><br> Vì dù sao thì... Cách bạn quản lý tiền khi còn nhỏ sẽ phần nào nói lên tính cách của bạn sau này.",
+    "en": "A small application that helps students, especially secondary students to manage their daily wallets.<br><br> The way you spend your money when you were a child will define some things when you grow up."
+  },
+  "moneyanimal2": {
+    "vi": "Vì dù sao thì... Cách bạn quản lý tiền khi còn nhỏ sẽ phần nào nói lên tính cách của bạn sau này.",
+    "en": "The way you spend your money when you were a child will define some things when you grow up."
+  },
+  "year": {
+    "vi": "năm",
+    "en": "year"
+  },
+  "years": {
+    "vi": "năm",
+    "en": "years"
+  }
+}

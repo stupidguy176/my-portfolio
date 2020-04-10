@@ -1,0 +1,151 @@
+.expertise .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.owl-wrapper-outer {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.title-small.resume-info {
+  margin-bottom: 70px;
+}
+
+.experence-list {
+  margin-top: 70px;
+}
+
+.btn-meomeo {
+  letter-spacing: 0.5px;
+  font-size: 13px;
+  line-height: 34px;
+  font-weight: 300;
+  border: solid 1px #dedede;
+  padding: 10px;
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+}
+
+.btn-meomeo:hover {
+  color: #2196f3;
+  border: solid 1px #2196f3;
+}
+
+a:hover {
+  color: #2196f3;
+}
+
+.img-circle {
+  width: 133px;
+  height: 133px;
+}
+
+button.btn-meomeo {
+  line-height: 13px;
+  background: none;
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+}
+
+.social-icons {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.social-icons li a {
+  color: #969696;
+  background: none;
+}
+
+ul.social-icons li {
+  list-style: none;
+  float: left;
+  margin: 0 10px;
+}
+
+.footer-bottom {
+  position: relative;
+}
+
+.footer-bottom .footer-social-icons {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.footer-bottom .footer-social-icons .social-icons {
+  padding: 0;
+}
+
+.footer-bottom .footer-social-icons .social-icons li {
+  list-style: none;
+  float: left;
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 480px) {
+  #resume {
+    padding: 80px 0;
+  }
+  #resume .padding-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #f2f2f2;
+  }
+  .card {
+    min-height: auto;
+  }
+  .title-small.resume-info {
+    margin-bottom: 30px;
+  }
+}
+
+.language {
+  width: 50px;
+  height: 45px;
+  position: fixed;
+  right: 0;
+  margin-top: 13px;
+  margin-right: 100px;
+  z-index: 1000;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.language {
+  color: #dedede;
+}
+
+.language #lang_en,
+.language #lang_vi {
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+}
+
+.language #lang_en:hover,
+.language #lang_vi:hover {
+  color: #818181;
+}
+
+.language #lang_en.active,
+.language #lang_vi.active {
+  color: #2f2f2f;
+}
+/*# sourceMappingURL=style-me.css.map */

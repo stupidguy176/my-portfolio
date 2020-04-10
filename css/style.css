@@ -161,11 +161,11 @@ img { max-width: 100%; }
 }
 /*-------- content --------*/
 .content-detail {
-  font-weight: 400;
+  /* font-weight: 400; */
   margin-top: 70px;
-  line-height: 30px;
+  /* line-height: 30px;
   font-size: 14px;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.4px; */
 }
 .content-details {
   font-weight: 400;
@@ -339,6 +339,7 @@ img { max-width: 100%; }
 .menu-list {
   height: 100%;     
   overflow-x: auto;
+  overflow-y: hidden;
 }
 .menu-list {
   -webkit-transform: translate3d(0, 100%, 0);
@@ -500,7 +501,20 @@ p {
   display: inline-block;
   margin-top: 5px;
   font-weight: 400;
+}
 
+.company:hover {
+  cursor: pointer;
+  border: 1px solid #afcfe8;
+  color: #afcfe8;
+}
+
+.company:hover a {
+  color: #afcfe8;
+}
+
+.company a {
+  color: #cccccc;
 }
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
@@ -618,8 +632,8 @@ ul.portfolio-image li:hover {
   cursor: pointer;
 }
 ul.portfolio-image li:hover img {
-  -webkit-filter: grayscale(20%);
-  transform: scale(1.15);
+  /* -webkit-filter: grayscale(20%);
+  transform: scale(1.15); */
 }
 ul.portfolio-image li:hover .image-bg {opacity: 1;}
 ul.portfolio-image li:hover .description-wrap {
@@ -628,10 +642,10 @@ ul.portfolio-image li:hover .description-wrap {
 ul.portfolio-image li img {
   position: absolute;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   left: 0;
   top: 0;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%); */
   transition: filter, transform, 0.5s;
 }
 ul.portfolio-image li .decription-wrap {
@@ -644,6 +658,20 @@ ul.portfolio-image li .decription-wrap {
   padding: 20px;
   transition: background, 0.5s;
 }
+ul.portfolio-image li .decription-wrap-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(242, 242, 242, 0.4);
+  padding: 20px;
+  transition: background, 0.5s;
+}
+ul.portfolio-image li .decription-wrap-2:hover {
+  background: rgba(96, 90, 90, 0);
+}
+
 ul.portfolio-image li .image-bg {
   color: #2f2f2f;
   background: #ffffff;
@@ -733,8 +761,8 @@ ul.portfolio-image li .desc{
   -webkit-transform-origin: 100% 0;
 }
 .wrap-card:hover {
-  box-shadow: 20px 20px 0px #818181;
-  -webkit-transform: translateY(-10px) translateX(-10px);
+  /* box-shadow: 20px 20px 0px #818181; */
+  /* -webkit-transform: translateY(-10px) translateX(-10px); */
   transition: all 0.2s ease 0.4s;
 }
 .wrap-card:hover:after,
@@ -746,6 +774,7 @@ ul.portfolio-image li .desc{
   padding: 30px 35px 45px 35px;
   margin-bottom: 30px;
   border: 1px solid rgba(129, 129, 129, 0.1);
+  min-height: 450px;
 }
 .card:before,
 .card:after {

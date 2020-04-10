@@ -1,0 +1,149 @@
+$spacing_desktop: 70px;
+$spacing_mobile: 30px;
+
+.expertise {
+    .item {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.owl-wrapper-outer {
+    padding: 0;
+}
+
+ul {
+    li {
+        list-style: none;
+    }
+}
+
+.title-small {
+    &.resume-info {
+        margin-bottom: $spacing_desktop;
+    }
+}
+
+.experence-list {
+    margin-top: $spacing_desktop;
+}
+
+.btn-meomeo {
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    line-height: 34px;
+    font-weight: 300;
+    border: solid 1px rgb(222, 222, 222);
+    padding: 10px;
+    transition: ease 0.6s;
+    &:hover {
+        color: #2196f3;
+        border: solid 1px #2196f3;
+    }
+}
+
+a {
+    &:hover {
+        color: #2196f3;
+    }
+}
+
+.img-circle {
+    width: 133px;
+    height: 133px;
+}
+
+button {
+    &.btn-meomeo {
+        line-height: 13px;
+        background: none;
+        transition: ease 0.6s;
+    }
+}
+
+.social-icons {
+    float: left;
+    width: 100%;
+    text-align: center;
+    li {
+        display: inline-block;
+        margin-right: 4px;
+        margin-bottom: 4px;
+        a {
+            color: #969696;
+            background: none;
+        }
+    }
+}
+
+ul {
+    &.social-icons {
+        li {
+            list-style: none;
+            float: left;
+            margin: 0 10px;
+        }
+    }
+}
+
+.footer-bottom {
+    position: relative;
+    .footer-social-icons {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        .social-icons {
+            padding: 0;
+            li {
+                list-style: none;
+                float: left;
+                margin: 0 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #resume {
+        padding: 80px 0;
+        .padding-item {
+            padding-top: $spacing_mobile;
+            padding-bottom: $spacing_mobile;
+            border-bottom: solid 1px #f2f2f2;
+        }
+    }
+    .card {
+        min-height: auto;
+    }
+    .title-small.resume-info {
+        margin-bottom: $spacing_mobile;
+    }
+}
+
+.language {
+    width: 50px;
+    height: 45px;
+    position: fixed;
+    right: 0;
+    margin-top: 13px;
+    margin-right: 100px;
+    z-index: 1000;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.language {
+    color: #dedede;
+    #lang_en,
+    #lang_vi {
+        transition: ease 0.6s;
+        &:hover {
+            color: #818181;
+        }
+        &.active {
+            color: #2f2f2f;
+        }
+    }
+}
