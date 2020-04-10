@@ -206,11 +206,26 @@
     dictionary = json;
   });
 
-  window.change_lang = function (index) {
-    // current_lang_index = ++current_lang_index % 2;
+  // window.change_lang = function (index) {
+  // current_lang_index = ++current_lang_index % 2;
+  //   current_lang = langs[index];
+  //   translate();
+  // }
+
+  function change_lang(index) {
     current_lang = langs[index];
     translate();
   }
+
+  $("#lang_en").on('click', function (index) {
+    current_lang = langs[1];
+    translate();
+  });
+
+  $("#lang_vi").on('click', function (index) {
+    current_lang = langs[0];
+    translate();
+  });
 
   function translate() {
     $("[data-translate]").each(function () {
