@@ -113,6 +113,15 @@ ul.social-icons li {
   .title-small.resume-info {
     margin-bottom: 30px;
   }
+  .logo-bottom {
+    width: 100px;
+  }
+  .year {
+    font-size: 22px;
+  }
+  .job {
+    font-size: 13px;
+  }
 }
 
 .language {

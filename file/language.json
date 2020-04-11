@@ -1,7 +1,7 @@
 {
   "basicinfo": {
     "vi": "Thông tin cơ bản",
-    "en": "Basic Info"
+    "en": "Resume"
   },
   "education": {
     "vi": "Học vấn",
@@ -17,7 +17,7 @@
   },
   "experience": {
     "vi": "Kinh nghiệm",
-    "en": "Experiences"
+    "en": "Experience"
   },
   "project": {
     "vi": "Project",
@@ -49,7 +49,7 @@
   },
   "nks": {
     "vi": "Lập trình Wordpress.<br> Xây dựng CMS trên nền Laravel.",
-    "en": "Writing code for WordPress. <br> Build A CMS with Laravel."
+    "en": "Worked with WordPress. <br> Built a CMS with Laravel."
   },
   "eztekname": {
     "vi": "Công ty TNHH Phát Triển Phần Mềm Eztek(EZTEK CO.,LTD)",
@@ -57,7 +57,7 @@
   },
   "eztek": {
     "vi": "Lập trình Angular (Angular 6, Angular 7). Mô hình Redux, NgRx. Lập trình mobile với Ionic framework.",
-    "en": "Work with Angular (Angular 6, Angular 7). Build store using ngrx/store. Builds some mobile apps with Ionic framework."
+    "en": "Worked with Angular (Angular 6, Angular 7). Built store using ngrx/store. Designed reusable components. Developed some mobile apps with Ionic framework."
   },
   "polarisname": {
     "vi": "Công ty TNHH Thương mại và Dịch vụ Polaris Việt Nam",
@@ -65,7 +65,7 @@
   },
   "polaris": {
     "vi": "Lập trình VueJS.<br>Xây dựng web, phát triển tính năng mới.",
-    "en": "Work with VueJS.<br> Build some websites, develop new features for company's products."
+    "en": "Worked with VueJS.<br> Fixed bugs from existing websites. Developed new features for company's products."
   },
   "moneyanimal": {
     "vi": "Ứng dụng nhỏ giúp các bạn nhỏ còn đi học, nhất là các bạn cấp 2 quản lý ví tiền hàng ngày của mình.<br><br> Vì dù sao thì... Cách bạn quản lý tiền khi còn nhỏ sẽ phần nào nói lên tính cách của bạn sau này.",
@@ -82,5 +82,9 @@
   "years": {
     "vi": "năm",
     "en": "years"
+  },
+  "myname": {
+    "vi": "Tên",
+    "en": "Name"
   }
 }
