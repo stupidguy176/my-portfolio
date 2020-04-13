@@ -229,18 +229,14 @@
     translate();
   });
 
-  var modal = document.querySelector(".modal-meme");
   $("#show_note").on('click', function (index) {
-    console.log('no cliek tui');
-    modal.classList.toggle("show-modal-meme");
+    $(".modal-meme").addClass("show-modal-meme");
   });
 
   var closeButton = document.querySelector(".close-button-meme");
-  closeButton.addEventListener("click", toggleModal);
-
-  function toggleModal() {
-    modal.classList.toggle("show-modal-meme");
-  }
+  closeButton.addEventListener("click", function() {
+    $(".modal-meme").removeClass("show-modal-meme");
+  });
 
   function translate() {
     $("[data-translate]").each(function () {
