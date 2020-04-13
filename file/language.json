@@ -48,24 +48,24 @@
     "en": "NKS CO.,LTD"
   },
   "nks": {
-    "vi": "Lập trình Wordpress.<br> Xây dựng CMS trên nền Laravel.",
-    "en": "Worked with WordPress. <br> Built a CMS with Laravel."
+    "vi": "Lập trình Wordpress. Phát triển website cho những trường học và tổ chức phi lợi nhuận. Tích hợp plugin. Xây dựng website theo mẫu từ PSD. Xây dựng CMS trên nền Laravel.",
+    "en": "Worked with WordPress. Created website for schools and nonprofit organizations. Converted PSD to HTML<br> optimized plugins. Built a CMS with Laravel."
   },
   "eztekname": {
     "vi": "Công ty TNHH Phát Triển Phần Mềm Eztek(EZTEK CO.,LTD)",
     "en": "Eztek Software Development CO.,LTD"
   },
   "eztek": {
-    "vi": "Lập trình Angular (Angular 6, Angular 7). Mô hình Redux, NgRx. Lập trình mobile với Ionic framework.",
-    "en": "Worked with Angular (Angular 6, Angular 7). Built store using ngrx/store. Designed reusable components. Developed some mobile apps with Ionic framework."
+    "vi": "Lập trình Angular (Angular 6, Angular 7). Mô hình Redux, NgRx. Lập trình mobile app bằng Ionic framework. <br> Làm việc với một số third-party: Firebase, ESMS, Facebook login, Zalo login, Applozic Chat SDK",
+    "en": "Worked with Angular (Angular 6, Angular 7). Built store using ngrx/store. Designed reusable components. Developed some mobile apps with Ionic framework. <br> Worked with some third-party: Firebase, ESMS, Facebook login, Zalo login, Applozic Chat SDK"
   },
   "polarisname": {
     "vi": "Công ty TNHH Thương mại và Dịch vụ Polaris Việt Nam",
     "en": "POLARIS VINA CO.,LTD"
   },
   "polaris": {
-    "vi": "Lập trình VueJS.<br>Xây dựng web, phát triển tính năng mới.",
-    "en": "Worked with VueJS.<br> Fixed bugs from existing websites. Developed new features for company's products."
+    "vi": "Lập trình VueJS.<br>Xây dựng web, phát triển tính năng mới. Làm việc với các thiết bị in, scan QRCode, IndexDB. Nhận feedback từ khách hàng và đội ngũ hỗ trợ. Thay đổi và cải tiến sản phẩm.",
+    "en": "Worked with VueJS.<br> Fixed bugs from existing websites. Developed new features for company's products. Worked with indexDB. I have been learned that customer feedback is a development opportunity."
   },
   "moneyanimal": {
     "vi": "Ứng dụng nhỏ giúp các bạn nhỏ còn đi học, nhất là các bạn cấp 2 quản lý ví tiền hàng ngày của mình.<br><br> Vì dù sao thì... Cách bạn quản lý tiền khi còn nhỏ sẽ phần nào nói lên tính cách của bạn sau này.",
@@ -86,5 +86,13 @@
   "myname": {
     "vi": "Tên",
     "en": "Name"
+  },
+  "skill": {
+    "vi":"Kỹ năng",
+    "en": "Skills"
+  },
+  "skilldesc": {
+    "vi": "Đây là những kỹ năng mình thấy tự tin. Bên cạnh đó, mình cũng có thể làm việc với NodeJs, ReactJs. Hy vọng được làm việc với Python. Mục tiêu của mình là trở thành một Full-Stack Developer.",
+    "en": "This is my background and skills. I can work with NodeJs, ReactJs. I'm also learning Back-End Development (special Python) and looking forward to be a Full Stack Web Developer."
   }
 }

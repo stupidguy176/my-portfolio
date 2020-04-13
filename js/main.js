@@ -219,13 +219,28 @@
 
   $("#lang_en").on('click', function (index) {
     current_lang = langs[1];
+    $("#show_note").addClass('is_show');
     translate();
   });
 
   $("#lang_vi").on('click', function (index) {
     current_lang = langs[0];
+    $("#show_note").removeClass('is_show');
     translate();
   });
+
+  var modal = document.querySelector(".modal-meme");
+  $("#show_note").on('click', function (index) {
+    console.log('no cliek tui');
+    modal.classList.toggle("show-modal-meme");
+  });
+
+  var closeButton = document.querySelector(".close-button-meme");
+  closeButton.addEventListener("click", toggleModal);
+
+  function toggleModal() {
+    modal.classList.toggle("show-modal-meme");
+  }
 
   function translate() {
     $("[data-translate]").each(function () {

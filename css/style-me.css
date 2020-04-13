@@ -125,17 +125,23 @@ ul.social-icons li {
 }
 
 .language {
-  width: 50px;
+  width: 80px;
   height: 45px;
   position: fixed;
   right: 0;
   margin-top: 13px;
-  margin-right: 100px;
+  margin-right: 80px;
   z-index: 1000;
   padding: 0;
   cursor: pointer;
   background: transparent;
   border: none;
+}
+
+@media screen and (max-width: 480px) {
+  .language {
+    margin-right: 65px;
+  }
 }
 
 .language {
@@ -156,5 +162,107 @@ ul.social-icons li {
 .language #lang_en.active,
 .language #lang_vi.active {
   color: #2f2f2f;
+}
+
+.language #show_note {
+  font-size: 14px;
+  color: #3f9dff;
+  width: 45px;
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+  visibility: hidden;
+}
+
+.language #show_note:hover, .language #show_note:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  -webkit-box-shadow: 0 0 0 0.5em rgba(255, 255, 255, 0);
+          box-shadow: 0 0 0 0.5em rgba(255, 255, 255, 0);
+}
+
+.language #show_note.is_show {
+  visibility: visible;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #3f9dff;
+            box-shadow: 0 0 0 0 #3f9dff;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #3f9dff;
+            box-shadow: 0 0 0 0 #3f9dff;
+  }
+}
+
+small.note {
+  letter-spacing: 0;
+  font-size: 12px;
+  line-height: 0px !important;
+  font-weight: 300;
+}
+
+.modal-meme {
+  position: fixed;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: visibility 0s linear 0.25s, opacity 0.25s 0s, -webkit-transform 0.25s;
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, -webkit-transform 0.25s;
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s, -webkit-transform 0.25s;
+}
+
+.modal-content-meme {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 50rem;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 480px) {
+  .modal-content-meme {
+    width: 80%;
+  }
+}
+
+.show-modal-meme {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: visibility 0s linear 0s, opacity 0.25s 0s, -webkit-transform 0.25s;
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, -webkit-transform 0.25s;
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s, -webkit-transform 0.25s;
+}
+
+.close-button-meme {
+  float: right;
+  width: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background-color: lightgray;
+}
+
+.close-button-meme:hover {
+  background-color: darkgray;
 }
 /*# sourceMappingURL=style-me.css.map */
