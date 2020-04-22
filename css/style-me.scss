@@ -217,7 +217,7 @@ small.note {
 .show-modal-meme {
     opacity: 1;
     visibility: visible;
-    transform: scale(1.0);
+    transform: scale(1);
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 .close-button-meme {
@@ -231,4 +231,60 @@ small.note {
 }
 .close-button-meme:hover {
     background-color: darkgray;
+}
+
+.cd-top {
+    display: inline-block;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    /* image replacement properties */
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: url(../images/arrow-up.png) no-repeat center 50%;
+    background-size: cover;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s;
+
+    visibility: hidden;
+    opacity: 0;
+}
+.cd-top.cd-is-visible,
+.cd-top.cd-fade-out,
+.no-touch .cd-top:hover {
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+}
+.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: 0.5;
+}
+.no-touch .cd-top:hover {
+    background-color: transparent;
+    opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+    .cd-top {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .cd-top {
+        height: 60px;
+        width: 60px;
+        right: 30px;
+        bottom: 30px;
+    }
 }
